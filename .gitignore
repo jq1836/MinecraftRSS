@@ -1,0 +1,8 @@
+Client/data
+Client/__pycache__
+
+AdminClient/data
+AdminClient/__pycache__
+
+Server/data
+Server/__pycache__
