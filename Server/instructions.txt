@@ -10,8 +10,10 @@ Setting up:
    (directory must contain the script to run your server). This script is usually a .bat
    file but can come in the form of a .sh file. Note that the remote server script does
    not work with .sh files without modification.
-2. Run the start.bat file and make sure a data folder with privatekey.txt inside is generated.
-3. Pass this data folder to any user that you would like to give the privilege of turning
+2. Rename the script to run your Minecraft server (as described above) to startserver.bat.
+   Do note that this is case sensitive.
+3. Run the start.bat file and make sure a data folder with privatekey.txt inside is generated.
+4. Pass this data folder to any user that you would like to give the privilege of turning
    ON/OFF the Minecraft server.
 
 
