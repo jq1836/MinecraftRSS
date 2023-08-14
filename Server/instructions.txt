@@ -1,0 +1,28 @@
+Requirements:
+1. Windows OS.
+2. Python 3.8.10 can be downloaded from https://www.python.org/downloads/release/python-3810/.
+3. Portforwarding for TCP port 25566.
+
+
+
+Setting up:
+1. Copy all files in the folder and paste it into the folder containing your minecraft server
+   (directory must contain the script to run your server). This script is usually a .bat
+   file but can come in the form of a .sh file. Note that the remote server script does
+   not work with .sh files without modification.
+2. Run the start.bat file and make sure a data folder with privatekey.txt inside is generated.
+3. Pass this data folder to any user that you would like to give the privilege of turning
+   ON/OFF the Minecraft server.
+
+
+
+Description of functionality:
+
+start.bat    - Remotely turns on the Minecraft remote server, server side script. Ensure that
+               your Minecraft server is off before running the script.
+
+
+
+Note:
+1. If a new key is required, delete the data folder and run start.bat.
+2. Currently, injection of server commands is not supported.

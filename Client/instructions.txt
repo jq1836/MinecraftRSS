@@ -1,0 +1,25 @@
+Requirements:
+1. Python 3.8.10 can be downloaded from https://www.python.org/downloads/release/python-3810/.
+
+
+
+Setting up:
+1. Open start.bat with a text editing software, e.g. (Notepad).
+2. Look for a section with [replace with IP here] and replace the text,
+   including the square brackets, i.e. '[' and ']' with the server IP.
+3. Repeat steps 1 and 2 for stop.bat.
+4. Make sure there is a data folder with privatekey.txt. This file will
+   be provided by your server administrator.
+
+
+
+Description of functionality:
+
+start.bat    - Remotely turns on the minecraft server.
+stop.bat     - Remotely turns off the minecraft server.
+
+
+
+Note:
+In the case of the Minecraft server unexpectedly crashing, run stop.bat
+before running start.bat.

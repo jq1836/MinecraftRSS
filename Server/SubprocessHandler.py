@@ -41,7 +41,7 @@ class SubprocessHandler:
     def _handleStart(self) -> str:
         if self.subprocess != None:
             return self._MINECRAFT_SERVER_ALREADY_STARTED
-        self.subprocess = subprocess.Popen(['sudo', 'bash', self.batchFilePath],
+        self.subprocess = subprocess.Popen(self.batchFilePath,
                                 stdin=subprocess.PIPE)
         _printMessage(f'{self._LOG_PREFIX} STARTING SERVER')
         return self._MINECRAFT_SERVER_STARTING
@@ -69,4 +69,4 @@ class SubprocessHandler:
             return False, self._handleStop()
         return False, self._INVALID_COMMAND_MESSAGE
 
-subprocessHandler = SubprocessHandler('Server/startserver.sh')
+subprocessHandler = SubprocessHandler('startserver.bat')
